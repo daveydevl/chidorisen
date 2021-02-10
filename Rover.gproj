@@ -1,0 +1,112 @@
+<project>
+ <properties version="1.0" logicalHeight="1920" html5_pack="0" retinaDisplay="0" win_org="kemine" html5_host="chidorisen.appspot.com" mouseToTouch="1" tv_icon="" orientation="0" osx_domain="giderosmobile.com" encryptCode="1" splash_h_image="" build_number="1" touchToMouse="1" osx_bundle="com.yourdomain." disableSplash="0" backgroundColor="#000000" ios_bundle="com.yourdomain." iosDevice="0" windowWidth="0" html5_mem="256" architecture="6" winrt_package="com.yourdomain.yourapp" exportMode="0" winrt_org="GiderosMobile" osx_org="GiderosMobile" splashScaleMode="0" mouseTouchOrder="0" version_code="1" logicalWidth="1080" scaleMode="3" android_template="1" app_icon="../../web_hi_res_512.png" app_name="Chidorisen" fps="60" autorotation="0" encryptAssets="1" win_domain="kemine.com" splash_v_image="../../splash.png" osx_category="5" packageName="com.kemine.chidorisen" windowHeight="0">
+  <imageScales/>
+  <plugins/>
+  <exports>
+   <export name="APK">
+    <property value="C:/Users/apacherev/AppData/Local/Android/sdk" name="androidPath"/>
+    <property value="23" name="androidSdk"/>
+    <property value="19" name="androidTarget"/>
+    <property value="23.0.2" name="androidTools"/>
+    <property value="1" name="buildApk"/>
+    <property value="1" name="deployApk"/>
+    <property value="C:/Program Files/Java/jdk1.8.0_121" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.kemine.chidorisen" name="packageName"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="images">
+  <file source="images/timer_bg.png"/>
+  <file source="images/stage_bg.png"/>
+  <file source="images/sparkle01.png"/>
+  <file source="images/select_overlay.png"/>
+  <file source="images/select_bg.png"/>
+  <file source="images/sample_bg.png"/>
+  <file source="images/retry.png"/>
+  <file source="images/quit.png"/>
+  <file source="images/question.png"/>
+  <file source="images/progress.png"/>
+  <file source="images/passed.png"/>
+  <file source="images/over_scroll.png"/>
+  <file source="images/mini_sample_bg.png"/>
+  <file source="images/logo.png"/>
+  <file source="images/level_bg.png"/>
+  <file source="images/hud.png"/>
+  <file source="images/glow.png"/>
+  <file source="images/final.png"/>
+  <file source="images/excellent.png"/>
+  <file source="images/congrats.png"/>
+  <file source="images/chi.png"/>
+  <file source="images/check.png"/>
+  <file source="images/c_4.png"/>
+  <file source="images/c_3.png"/>
+  <file source="images/c_2.png"/>
+  <file source="images/c_1.png"/>
+  <file source="images/c_0.png"/>
+  <file source="images/block_v_simple.png"/>
+  <file source="images/block_v_only_simple.png"/>
+  <file source="images/block_v_only.png"/>
+  <file source="images/block_v_last_simple.png"/>
+  <file source="images/block_v_last.png"/>
+  <file source="images/block_v_first_simple.png"/>
+  <file source="images/block_v_first.png"/>
+  <file source="images/block_v.png"/>
+  <file source="images/block_h_simple.png"/>
+  <file source="images/block_h_only_simple.png"/>
+  <file source="images/block_h_only.png"/>
+  <file source="images/block_h_last_simple.png"/>
+  <file source="images/block_h_last.png"/>
+  <file source="images/block_h_first_simple.png"/>
+  <file source="images/block_h_first.png"/>
+  <file source="images/block_h.png"/>
+ </folder>
+ <folder name="levels">
+  <file source="levels/level_27.png"/>
+  <file source="levels/level_26.png"/>
+  <file source="levels/level_25.png"/>
+  <file source="levels/level_24.png"/>
+  <file source="levels/level_23.png"/>
+  <file source="levels/level_22.png"/>
+  <file source="levels/level_21.png"/>
+  <file source="levels/level_20.png"/>
+  <file source="levels/level_19.png"/>
+  <file source="levels/level_18.png"/>
+  <file source="levels/level_17.png"/>
+  <file source="levels/level_16.png"/>
+  <file source="levels/level_15.png"/>
+  <file source="levels/level_14.png"/>
+  <file source="levels/level_13.png"/>
+  <file source="levels/level_12.png"/>
+  <file source="levels/level_11.png"/>
+  <file source="levels/level_10.png"/>
+  <file source="levels/level_9.png"/>
+  <file source="levels/level_8.png"/>
+  <file source="levels/level_7.png"/>
+  <file source="levels/level_6.png"/>
+  <file source="levels/level_5.png"/>
+  <file source="levels/level_4.png"/>
+  <file source="levels/level_3.png"/>
+  <file source="levels/level_2.png"/>
+  <file source="levels/level_1.png"/>
+ </folder>
+ <file source="progress.lua"/>
+ <file source="colors.lua"/>
+ <file source="solve.lua"/>
+ <file source="levels.lua"/>
+ <file source="rover_sample.lua"/>
+ <file source="rover_play.lua"/>
+ <file source="rover_select.lua"/>
+ <file source="level_numbers.lua"/>
+ <file source="gtween.lua"/>
+ <file source="easing.lua"/>
+ <file source="block.lua"/>
+ <file source="util.lua"/>
+ <file source="main.lua"/>
+ <file source="font.ttf"/>
+ <dependency from="block.lua" to="colors.lua"/>
+ <dependency from="level_numbers.lua" to="util.lua"/>
+ <dependency from="rover_select.lua" to="progress.lua"/>
+ <dependency from="main.lua" to="block.lua"/>
+</project>
